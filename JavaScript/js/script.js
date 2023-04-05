@@ -143,15 +143,14 @@ function validaEmail(elemento){
     });
 
 }
-
+     
 function validaUf(elemento){
 
     elemento.addEventListener('focusout', function(event) {
 
         event.preventDefault();
 
-        
-        const ufValido = /([A-z]{2})/i;
+        const ufValido = /([A-z])/i;
 
         if(this.value.match(ufValido)) {
             document.querySelector('.mensagem').innerHTML = "";
