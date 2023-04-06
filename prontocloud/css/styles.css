@@ -94,6 +94,10 @@ html .cog-cognito *::after, :root:root:root:root:root .cog-cognito *,
 
 }
 
+#tenho-interesse .cog-button--submit .cog-button__text {
+    background-color: #efefef !important;
+}
+
 ol {
     margin-left: 30px;
 }
