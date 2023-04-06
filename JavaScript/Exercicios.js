@@ -4,65 +4,65 @@
 
 
 
-let calc1 = "10" + 2 
+let calc1 = "10" + 2 ;
 
-let calc2 =  "10" * 2 
+let calc2 =  "10" * 2 ;
 
-let calc3 = "10" / 3 
+let calc3 = "10" / 3 ;
 
-let calc4 =  "10" % 3 
+let calc4 =  "10" % 3 ;
 
-let calc5 = 10 + true 
+let calc5 = 10 + true ;
 
-let calc6 = 10 == "10" 
+let calc6 = 10 == "10" ;
 
-let calc7 =  10 === "10" 
+let calc7 =  10 === "10" ;
 
-let calc8 =  10 < 11 
+let calc8 =  10 < 11 ;
 
-let calc9 = 10 > 12 
+let calc9 = 10 > 12 ;
 
-let calc10 =  10 <= 10.1 
+let calc10 =  10 <= 10.1 ;
 
-let calc11 =  10 > 9.99 
+let calc11 =  10 > 9.99 ;
 
-let calc12 =  10 != "dez" 
+let calc12 =  10 != "dez" ;
 
-let calc13 =  10 + true 
+let calc13 =  10 + true ;
 
-let calc14 = "dez" + true 
+let calc14 = "dez" + true ;
 
-let calc15 = 10 + false 
+let calc15 = 10 + false ;
 
-let calc16 = 10 * false 
+let calc16 = 10 * false ;
 
-let calc17 =  true + true 
+let calc17 =  true + true ;
 
-let calc18 = 10++ 
+let calc18 = 10++ ;
 
-let calc19 = 10-- 
+let calc19 = 10-- ;
 
-let calc20 = 1&1 
+let calc20 = 1&1 ;
 
-let calc21 = 1&0 
+let calc21 = 1&0 ;
 
-let calc22 = 0&0 
+let calc22 = 0&0 ;
 
-let calc23 = 1&0 
+let calc23 = 1&0 ;
 
-let calc24 = 0/1 
+let calc24 = 0/1 ;
 
-let calc25 = 5 + 5 == 10 
+let calc25 = 5 + 5 == 10 ;
 
-let calc26 = "5" + "5" == 10 
+let calc26 = "5" + "5" == 10 ;
 
-let calc27 ="5" * 2 > 9 
+let calc27 ="5" * 2 > 9 ;
 
-let calc28 = (10 + 10) * 2 
+let calc28 = (10 + 10) * 2 ;
 
-let calc29 = 10 + 10 * 2 
+let calc29 = 10 + 10 * 2 ;
 
-let calc30 = 10 + 15  
+let calc30 = 10 + 15  ;
 
 
 
@@ -97,3 +97,22 @@ let calc30 = 10 + 15
  console.log(calc29) //  30 (number)
  console.log(calc30) // 25 (number) 
 
+
+
+ var branco = "preto";
+ var preto = "cinza";
+ var cinza = "branco";
+ var valor = 30000;
+ var prestacao = 750;
+
+
+
+ var conta1 = branco == "branco";
+ var conta2 = branco == cinza;
+ var conta3 = carro === branco;
+ var cavalo = carro == "preto" ? "cinza" : "marron";
+ var valorCarro = valor - 3000 / prestacao;
+ var somaVariaveis = branco+preto+cinza;
+
+ var somaVariaveis = 'pretobrancobranco';
+ var tamanho = somaVariaveis.length;
