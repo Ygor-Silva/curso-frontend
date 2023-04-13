@@ -4,8 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./libs/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="./libs/fontawesome/css/brands.min.css">
+    <link rel="stylesheet" href="./libs/fontawesome/css/regular.min.css">
     <link rel="stylesheet" href="./style/custom.css">
+    <link rel="stylesheet" href="./style/custom-form.css">
     <title>Document</title>
 </head>
 <body>
@@ -28,7 +32,7 @@
                       <div class="collapse navbar-collapse" id="navbarScroll">
                         <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
                           <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="list-group-item" href="#"><i class="fa fa-home fa-sm" aria-hidden="true"></i>&nbsp; Home</a>
                           </li>
                           <li class="nav-item">
                             <a class="nav-link" href="#">Sobre</a>
@@ -47,7 +51,6 @@
                         </ul>
                         <form class="d-flex" role="search">
                           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-
                           <button class="btn btn-outline-success" type="submit">Search</button>
                         </form>
                       </div>
@@ -57,18 +60,69 @@
         </div>
     </header>
     
-            <!-- cabeçalho principal -->
+                                        <!-- Carrosel -->
+
+    <div class="container">
+        
+        <div id="carouselExampleFade" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active ">
+                    <div class="ratio ratio-21x9">
+                        <img src="./imagens/img-carrosel-1.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <div class="carousel-caption">
+                    <a name="" id="" class="btn link-light" href="#" role="button">Saiba mais</a>
+                </div>
+                <div class="carousel-item">
+                    <div class="ratio ratio-21x9">
+                        <img src="./imagens/carrossel_2.png" class="d-block w-100 opacity-75" alt="...">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="ratio ratio-21x9">
+                        <img src="./imagens/carrossel_3.png" class="d-block w-100 opacity-75" alt="...">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="ratio ratio-21x9">
+                        <img src="./imagens/img-antes-carrosel-4.png" class="d-block w-100 opacity-75" alt="...">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="ratio ratio-21x9">
+                        <img src="./imagens/carrossel_4.png" class="d-block w-100 opacity-75" alt="...">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="ratio ratio-21x9">
+                        <img src="./imagens/img-final-carrosel.jpg" class="d-block w-100 opacity-75" alt="...">
+                    </div>
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+            <!-- cabeçalho principal com o carrosel -->
 
     <section id="sobre">
         <div class="container">
-            <div class="row">
-                <div class="col-md-7 col-sm-12">
-                    <h2>Sobre nós</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex vero doloribus veniam incidunt reprehenderit. Itaque, culpa? Rerum, excepturi vero hic error aperiam voluptatibus qui ducimus cupiditate quod consequatur blanditiis aut.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex vero doloribus veniam incidunt reprehenderit. Itaque, culpa? Rerum, excepturi vero hic error aperiam voluptatibus qui ducimus cupiditate quod consequatur blanditiis aut. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae. Neque vero repellendus temporibus nostrum, molestiae ea animi voluptates ipsum eum explicabo facere nisi vitae reprehenderit veritatis dolorem unde ipsa.
-                    Repellendus rem saepe recusandae, nisi, consequuntur ullam nam laborum dolore voluptatem alias incidunt ipsa dignissimos reiciendis sed! Excepturi, consequuntur repudiandae adipisci ullam voluptate voluptas, consectetur cum assumenda similique earum quam?</p>
-                    <a class="btn btn-lg btn-success">Botão</a>
-                </div>
+                <div class="row">
+                    <div class="col-md-7 col-sm-12">
+                        <h2>Sobre nós</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex vero doloribus veniam incidunt reprehenderit. Itaque, culpa? Rerum, excepturi vero hic error aperiam voluptatibus qui ducimus cupiditate quod consequatur blanditiis aut.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex vero doloribus veniam incidunt reprehenderit. Itaque, culpa? Rerum, excepturi vero hic error aperiam voluptatibus qui ducimus cupiditate quod consequatur blanditiis aut. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae. Neque vero repellendus temporibus nostrum, molestiae ea animi voluptates ipsum eum explicabo facere nisi vitae reprehenderit veritatis dolorem unde ipsa.
+                        Repellendus rem saepe recusandae, nisi, consequuntur ullam nam laborum dolore voluptatem alias incidunt ipsa dignissimos reiciendis sed! Excepturi, consequuntur repudiandae adipisci ullam voluptate voluptas, consectetur cum assumenda similique earum quam?</p>
+                        <a class="btn btn-lg btn-success">Botão</a>
+                    </div>
 
                     <!-- Cards -->
 
@@ -126,23 +180,27 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-12">
-                    <h2>Contato</h2>
+                    <h3>Contato <i class="fa fa-pencil fa-fw" aria-hidden="true"></i></h3> 
                     <p>Ficou interessado? Preencha os campos do formulário para receber uma cotação.</p><br>
                     <form class="form">
     
                         <div class="input-group">
-                            <input class="form-control" type="text" name="nome" placeholder="digite seu nome">
+                            <input class="form-control" type="text" name="nome" placeholder="Digite seu Nome" required>
                         </div>
-    
                         <div class="input-group">
-                            <input class="form-control" type="text" name="email" placeholder="digite seu email">
+                            <input class="form-control" type="text" name="email" placeholder="Digite seu Email" required>
                         </div>
-                        
                         <div class="input-group">
-                            <textarea  class="form-control" name="" rows="4"></textarea>
+                            <input class="form-control" type="text" name="Bairro" placeholder="Digite seu Bairro">
+                        </div>
+                        <div class="input-group">
+                            <input class="form-control" type="text" name="Telefone" placeholder="Digite seu Telefone" required>
+                        </div>
+                        <div class="input-group">
+                            <textarea  class="form-control" name="Complemento" placeholder="Complemento" rows="3"></textarea>
                         </div><br>
-                        
                         <div class="mb-3">
+                            <i class="fa-solid fa-paperclip"></i>
                             <label for="formFile" class="form-label">Anexar um arquivo</label>
                             <input class="form-control" type="file" id="formFile">
                           </div><br>
@@ -284,6 +342,14 @@
 
     </div>
 
-    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/2c4d4dca4e.js" crossorigin="anonymous"></script>
+    <script>
+        var myCarousel = document.querySelector('#carouselExampleFade')
+        var carousel = new bootstrap.Carousel(myCarousel, {
+            pause: false,
+            interval: 5000
+        })
+    </script>
 </body>
 </html>
